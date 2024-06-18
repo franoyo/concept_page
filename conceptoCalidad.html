@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTION DOCUMENTAL CONCEPTO</title>
+    <link rel="stylesheet" href="concept.css">
+</head>
+<body>
+    <div class="divi"></div>
+    <div class="blue-div"></div>
+    <div class="main-content">
+        <header id="cabecera" class="cabecera">
+            <div class="put-icon">
+                <img class="icon" src="ums.png" alt="">
+            </div>
+            <nav class="nav-bar">
+                <div class="put-a">
+                    <a class="inf" href="">Inicio</a>
+                    <a class="inf" href="">Quienes Somos</a>
+                    <a class="inf" href="">Sedes</a>
+                    <a class="inf" href="">Aliados</a>
+                    <a class="inf" href="">Usuarios UMS[L]</a>
+                    <a class="inf" href="">Contactenos</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container-title">
+            GESTION DOCUMENTAL
+        </div>
+        <main class="principal-info">
+            <div class="escential">
+                <div class="put-sedes">
+                    <img class="img" src="Compensar Cll 127.jpg" alt="">
+                    CALLE 127
+                </div>
+                <div class="put-sedes">
+                    <img class="img" src="calle 122.jpg" alt="">
+                    CALLE 122
+                </div>
+                <div class="put-sedes">
+                    <img class="img" src="calle955.PNG" alt="">
+                    CALLE 95
+                </div>
+                <div class="put-sedes">
+                    <img class="img" src="av americas.PNG" alt="">
+                    AV.AMERICAS
+                </div>
+                <div class="put-sedes">
+                    <img class="img" src="HMMM.PNG" alt="">
+                    KENNEDY 1
+                </div>
+                <div class="put-sedes">
+                    <img class="img" src="KENEDYY2.PNG" alt="">
+                    KENNEDY 2
+                </div>
+            </div>
+        </main>
+    </div>    
+    <script>
+       
+        window.addEventListener('scroll', function() {
+          var miDiv = document.getElementById('cabecera');
+          var scrollPos = window.scrollY;
+        
+          if (scrollPos > 78) { 
+            miDiv.classList.add('fixed');
+          } else {
+            miDiv.classList.remove('fixed');
+          }
+        });
+        </script>
+</body>
+</html>
